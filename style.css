@@ -1,0 +1,70 @@
+*{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 1rem;
+ }
+ h2 {
+   font-size: 1.75rem;
+ }
+ 
+ a {
+   color: black;
+ }
+ 
+ .button-primary {
+   border: 1px solid chartreuse;
+ }
+ 
+ 
+ .org-logo {
+   width: 150px;
+ } 
+ 
+ *{
+   box-sizing: border-box;
+ }
+ 
+ 
+ .container {
+   width: 80%;
+   margin: 0 auto;
+ }
+ .row {
+   margin: 5% 0;
+ }
+ /*Clear Fix*/
+ .row:after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ .cell {
+   width: 50%;
+   float: left;
+   padding: 15px;
+ }
+ 
+ 
+ /*Mobile*/
+ 
+ @media only screen and (max-width: 768px) {
+   /* For mobile phones: */
+   [class*="cell"] {
+     width: 100%;
+   }
+ }
+ 
+ .text-center {
+   text-align: center;
+ }
+ .text-left {
+   text-align: left;
+ }
+ .text-right {
+   text-align: right;
+ }
+ 
+ 
+ .text-primary {
+   color: chartreuse;
+ }
