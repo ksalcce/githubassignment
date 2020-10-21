@@ -1,6 +1,7 @@
 *{
    font-family: 'Quicksand', sans-serif;
    font-size: 1rem;
+   background-color:#fff8cd;
  }
  h2 {
    font-size: 1.75rem;
@@ -12,11 +13,19 @@
  
  .button-primary {
    border: 1px solid chartreuse;
+   background-color: chartreuse;
+ }
+
+ .button-primary:hover{
+border:1.5px solid yellow;
  }
  
  
  .org-logo {
    width: 150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
  } 
  
  *{
