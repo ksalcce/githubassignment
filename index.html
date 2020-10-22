@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -11,37 +11,37 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="container text-center">
-      <div class="row">
-        <h2><i class="fa fa-code-fork text-primary" aria-hidden="true"></i> Repo Search</h2>
-      </div>
-      <div class="row">
+    <main class="container text-center">
+      <section class="row">
+        <p><i class="fa fa-code-fork text-primary" aria-hidden="true"></i> Repo Search</p>
+      <p> <strong>How this App works:</strong></p>
+      <p> Search any company below and get not only the company information of their location and their number of repos. But also the weather of the main headquaters of the company as well !!! </p>
+      </section>
+      <section class="row">
         <div class="cell text-right">
-          <img id="orgLogo" class="org-logo" src="https://static.dezeen.com/uploads/2018/09/uber-rebrand-wolff-olins_dezeen_sq.jpg"/>
+          <img id="orgLogo" class="org-logo" src="https://static.dezeen.com/uploads/2018/09/uber-rebrand-wolff-olins_dezeen_sq.jpg" alt="No Company Logo">
         </div>
         <div class="cell text-left" id="orgData">
-          <h4><strong>Company: </strong> Uber</h4>
-          <p id='weather'><strong>Location: </strong> San Francisco, CA</p>
+          <p><strong>Company: </strong> Uber</p>
+          <p id='weather'><id="value"strong>Location: </strong> San Francisco, CA</p>
           <p><strong>Weather:</strong>
           <p><strong>Total Repos: </strong> 10</p>
-
         </div>
-      </div>
-      <div class="row">
+      </section>
+      <section class="row">
         <form id="orgSearchForm">
           <input type="text" id="q"/required>
-          <input class="button-primary"type="submit" id="submitOrgSearch"/>
+          <input class="button-primary"type="submit" id="submitOrgSearch" value="Submit">
         </form>
-      </div>
+      </section>
       <footer class="row">
         <div class="cell">
-          <h4 class="text-primary">Lorem Ipsum</h4>
+          <p class="text-primary">Lorem Ipsum</p>
         </div>
         <div class="cell">
           <a href="#"><i class="fa fa-github-square" aria-hidden="true"></i> Git Hub</a>
         </div>
-      </div>
-    </div>
+        </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
